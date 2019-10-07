@@ -12,7 +12,7 @@ public class CameraChanger : MonoBehaviour
 
     public void Update()
     {
-            if (player.position.y < -20)
+            if (player.position.y < -13)
             {
                 float t = 1f;
                 Camera.main.backgroundColor = Color.Lerp(color1, color2, t);
@@ -23,7 +23,6 @@ public class CameraChanger : MonoBehaviour
             Camera.main.backgroundColor = color1; 
         }
     }
-
 
 
 }

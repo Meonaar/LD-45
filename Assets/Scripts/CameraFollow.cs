@@ -7,13 +7,17 @@ public class CameraFollow : MonoBehaviour
     public Transform player;
     public float speed;
     public Vector3 offset;
+    public Vector3 newOffset;
     public Vector3 newPosition;
+    bool isOffset = false;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) || isOffset)
         {
             speed = 3;
+            offset = newOffset;
+            isOffset = true;
         }
     }
 
