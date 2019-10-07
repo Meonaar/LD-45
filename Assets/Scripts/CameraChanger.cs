@@ -8,15 +8,7 @@ public class CameraChanger : MonoBehaviour
     public Color color1 = Color.black;
     public Color color2 = Color.red;
 
-    public GameObject floor1;
-    public GameObject wall;
-
     public Transform player;
-
-    private void Start()
-    {
-
-    }
 
     public void Update()
     {

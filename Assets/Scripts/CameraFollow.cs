@@ -9,12 +9,6 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset;
     public Vector3 newPosition;
 
-
-    private void Start()
-    {
-        Time.timeScale = 0;
-    }
-
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
@@ -23,13 +17,6 @@ public class CameraFollow : MonoBehaviour
         }
     }
 
-    private void LateUpdate()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Time.timeScale = 1;
-        }
-    }
     void FixedUpdate()
     {
         newPosition = Vector3.Lerp(transform.position, player.position + offset, speed * Time.smoothDeltaTime);
