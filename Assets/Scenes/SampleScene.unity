@@ -4123,7 +4123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 797632443}
   speed: 0.4
-  offset: {x: 4, y: 1.64, z: -1}
+  offset: {x: 2, y: 1.64, z: -1}
   newPosition: {x: 0, y: 0, z: 0}
 --- !u!20 &519420031
 Camera:
@@ -5550,7 +5550,7 @@ PrefabInstance:
     - target: {fileID: 3446261874522578384, guid: 894ccf7ea4c7fb544aa72f81d4dc83fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.62
+      value: -13.28
       objectReference: {fileID: 0}
     - target: {fileID: 3446261874522578384, guid: 894ccf7ea4c7fb544aa72f81d4dc83fe,
         type: 3}
@@ -11255,7 +11255,7 @@ PrefabInstance:
     - target: {fileID: 3446261874522578384, guid: 894ccf7ea4c7fb544aa72f81d4dc83fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.62
+      value: -11.1
       objectReference: {fileID: 0}
     - target: {fileID: 3446261874522578384, guid: 894ccf7ea4c7fb544aa72f81d4dc83fe,
         type: 3}
@@ -14993,7 +14993,7 @@ PrefabInstance:
     - target: {fileID: 3446261874522578384, guid: 894ccf7ea4c7fb544aa72f81d4dc83fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.47
+      value: -17.56
       objectReference: {fileID: 0}
     - target: {fileID: 3446261874522578384, guid: 894ccf7ea4c7fb544aa72f81d4dc83fe,
         type: 3}
@@ -16435,7 +16435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Click or press Enter
+  m_Text: Press Enter
 --- !u!222 &1844063393
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20597,7 +20597,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.295776, y: 0.6550026}
+  m_Offset: {x: -8.247559, y: 0.6550026}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -20608,7 +20608,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.5234375, y: 2.80365}
+  m_Size: {x: 3.9448242, y: 2.80365}
   m_EdgeRadius: 0
 --- !u!4 &3529212519367169500
 Transform:
